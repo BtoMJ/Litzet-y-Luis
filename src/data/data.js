@@ -13,7 +13,7 @@ const data = [
     phone: "476 110 0149",
     adults: 4,
     kids: 2,
-    url: "https://litzet-y-luis-dzsc.vercel.app/fam-torres-lopez",
+    url: "fam-torres-lopez",
   },
   {
     id: 3,
