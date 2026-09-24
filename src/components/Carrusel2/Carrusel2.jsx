@@ -1,0 +1,41 @@
+import { useState, useEffect, useRef } from "react";
+import "./Carrusel2.css";
+
+const slides = [
+  <div className="slide-container-1"></div>,
+  <div className="slide-container-2"></div>,
+  <div className="slide-container-3"></div>,
+];
+
+function Carrusel2() {
+  const [index, setIndex] = useState(0);
+  const timeoutRef = useRef(null);
+  const delay = 2700;
+
+  const resetTimeout = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+  };
+
+  useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () => setIndex((prevIndex) => (prevIndex + 1) % slides.length),
+      delay,
+    );
+    return () => resetTimeout();
+  }, [index]);
+
+  return (
+    <div className="carrusel-container">
+      <div className="carousel-fade">
+        {slides.map((content, i) => (
+          <div key={i} className={`fade-slide ${i === index ? "active" : ""}`}>
+            {content}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Carrusel2;

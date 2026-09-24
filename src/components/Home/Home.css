@@ -1,0 +1,381 @@
+@media (320px <= width <= 480px) and (max-height: 667px) {
+  .home-container {
+    padding-bottom: 1rem;
+    margin-bottom: 50px;
+
+    .home-photo {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .names-container {
+      margin-top: -12vh;
+
+      .names {
+        width: 60%;
+        font-size: 2.2rem;
+      }
+
+      .date-names {
+        font-size: 1.3rem;
+      }
+
+      img {
+        width: 65%;
+      }
+    }
+  }
+}
+
+@media (320px <= width <= 480px) and (min-height: 668px) {
+  .home-container {
+    padding-bottom: 1rem;
+    margin-bottom: 50px;
+
+    .home-photo {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .names-container {
+      margin-top: -7vh;
+
+      .names {
+        width: 85%;
+        font-size: 2.5rem;
+      }
+
+      .date-names {
+        font-size: 2rem;
+        margin-top: 5px;
+      }
+
+      img {
+        width: 75%;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media (481px <= width <= 767px) {
+  .home-container {
+    width: 100dvw;
+    height: 100dvh;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .home-photo {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .names-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: -12vh;
+
+      .names {
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 2.2rem;
+        color: #342619;
+
+        span {
+          color: #dfb21e;
+        }
+      }
+
+      .date-names {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        margin-top: -10px;
+        color: #342619;
+      }
+
+      img {
+        width: 65%;
+        margin-top: -8px;
+      }
+    }
+  }
+}
+
+@media (768px <= width <= 1023px) {
+  .home-container {
+    .home-photo {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .names-container {
+      justify-content: flex-start;
+      margin-top: -8vh;
+
+      .names {
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: #342619;
+
+        span {
+          color: #dfb21e;
+        }
+      }
+
+      .date-names {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        color: #342619;
+      }
+
+      img {
+        width: 75%;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+@media (1024px <= width <= 1199px) {
+  .home-container {
+    .home-photo {
+      width: 120%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+
+      img {
+        width: 100%;
+        position: relative;
+        right: 30px;
+      }
+    }
+
+    .names-container {
+      margin-top: -9vh;
+      z-index: 100;
+
+      .names {
+        width: 65%;
+        font-size: 2.5rem;
+      }
+
+      .date-names {
+        font-size: 2rem;
+      }
+
+      img {
+        width: 75%;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+@media (1200px <= width <= 1919px) {
+  .home-container {
+    .home-photo {
+      width: 100%;
+
+      img {
+        width: 100%;
+        position: relative;
+      }
+    }
+
+    .names-container {
+      margin-top: -9vh;
+      z-index: 100;
+
+      .names {
+        width: 75%;
+        font-size: 2rem;
+      }
+
+      .date-names {
+        font-size: 1.5rem;
+      }
+
+      img {
+        width: 75%;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+@media (1920px <= width <= 2600px) {
+  .home-container {
+    width: 100%;
+    height: 100dvh;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+
+    .home-photo {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+
+      img {
+        width: 100%;
+        margin-top: -50px;
+      }
+    }
+
+    .names-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: -12vh;
+
+      .names {
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 3rem;
+        color: #342619;
+
+        span {
+          color: #dfb21e;
+        }
+      }
+
+      .date-names {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin-top: -10px;
+        color: #342619;
+      }
+
+      img {
+        width: 65%;
+        margin-top: -10px;
+      }
+    }
+  }
+}
+
+@media (2600px <= width) {
+  .home-container {
+    width: 100dvw;
+    height: 100dvh;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .home-photo {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .names-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: -12vh;
+
+      .names {
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 2.2rem;
+        color: #342619;
+
+        span {
+          color: #dfb21e;
+        }
+      }
+
+      .date-names {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        margin-top: -10px;
+        color: #342619;
+      }
+
+      img {
+        width: 65%;
+        margin-top: -8px;
+      }
+    }
+  }
+}
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .home-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+  }
+
+  .names-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+
+    .names {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      font-family: "Playfair Display", serif;
+      font-weight: 600;
+      color: #342619;
+
+      span {
+        color: #dfb21e;
+      }
+    }
+
+    .date-names {
+      font-family: "Playfair Display", serif;
+      color: #342619;
+    }
+  }
+}

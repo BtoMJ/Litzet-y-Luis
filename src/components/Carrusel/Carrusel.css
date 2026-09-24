@@ -1,0 +1,233 @@
+@media (320px <= width <= 480px) {
+  .carrusel-container-2 {
+    width: 85%;
+    margin: 0 auto;
+
+    .carousel-fade-2 {
+      width: 100%;
+      min-height: 500px;
+      margin: 30px 0 10px 0;
+
+      .slider-container-4,
+      .slider-container-5,
+      .slider-container-6 {
+        width: 100%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 90%;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (481px <= width <= 767px) and (orientation: landscape) {
+}
+
+@media (768px <= width <= 1023px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 500px;
+      margin: 50px 0 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (1024px <= width <= 1199px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 700px;
+      margin: 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 1.7rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (1200px <= width <= 1919px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 500px;
+      margin: 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (1920px <= width <= 2660px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 600px;
+      margin: 50px 0 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 90%;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90dvw;
+      font-size: 2.7rem;
+    }
+  }
+}
+
+@media (2661px <= width) {
+}
+
+.carrusel-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  .carousel-fade-2 {
+    .slider-container-4,
+    .slider-container-5,
+    .slider-container-6 {
+      background-repeat: no-repeat;
+    }
+  }
+
+  .cita {
+    color: #342619;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .end-title {
+    color: #342619;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.slider-container-4 {
+  background-image: url("../../assets/slider-2/1.jpeg");
+  background-position: top 2000% left 80%;
+  background-size: 150% !important;
+}
+
+.slider-container-5 {
+  background-image: url("../../assets/slider-2/2.jpeg");
+  background-position: top -5% center;
+  background-size: 130% !important;
+}
+
+.slider-container-6 {
+  background-image: url("../../assets/slider-2/3.jpeg");
+  background-position: top 10% center;
+  background-size: 180% !important;
+}
+
+.carousel-fade-2 {
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.fade-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.fade-slider.active {
+  opacity: 1;
+  z-index: 1;
+}

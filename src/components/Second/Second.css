@@ -1,0 +1,642 @@
+@media (320px <= width <= 480px) and (max-height: 667px) {
+  .date-container {
+    margin-top: 50px;
+
+    .final-countdown {
+      h5 {
+        font-size: 2rem;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        font-size: 1rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: -140px;
+      margin-top: -50px;
+    }
+
+    .data-church {
+      margin: 30px 0;
+
+      .title-section {
+        img {
+          width: 20%;
+          margin-top: -160px;
+        }
+
+        h2 {
+          font-size: 2rem;
+          margin: 0 5px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 1.5rem;
+      }
+
+      .direction {
+        font-size: 1.2rem;
+      }
+
+      .time {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        font-size: 1.2rem;
+      }
+
+      .title-parients {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      .parients {
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (320px <= width <= 480px) and (min-height: 668px) {
+  .date-container {
+    margin-top: -50px;
+
+    .final-countdown {
+      h5 {
+        font-size: 2rem;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        font-size: 1.5rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: -140px;
+      margin-top: -70px;
+    }
+
+    .data-church {
+      margin: 30px 0;
+
+      .title-section {
+        img {
+          width: 20%;
+          margin-top: -160px;
+        }
+
+        h2 {
+          font-size: 2rem;
+          margin: 0 5px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 1.5rem;
+      }
+
+      .direction {
+        font-size: 1.2rem;
+      }
+
+      .time {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        font-size: 1.2rem;
+      }
+
+      .title-parients {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      .parients {
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (481px <= width <= 767px) {
+  .date-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+
+    .final-countdown {
+      h5 {
+        font-size: 2rem;
+        font-family: "Playfair Display", serif;
+        color: #342619;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-family: "Playfair Display", serif;
+        color: #8d7157;
+        margin-bottom: -70px;
+        z-index: 5;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: -140px;
+      z-index: -1;
+    }
+
+    .data-church {
+      margin: 30px 0;
+
+      .title-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 20%;
+          margin-top: -160px;
+        }
+
+        h2 {
+          font-size: 2rem;
+          font-family: "Playfair Display", serif;
+          color: #342619;
+          margin: 0 5px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 1.5rem;
+        font-family: "Playfair Display", serif;
+        color: #342619;
+      }
+
+      .direction {
+        font-size: 1.2rem;
+        font-family: "Playfair Display", serif;
+        color: #342619;
+      }
+
+      .time {
+        font-size: 1.2rem;
+        font-family: "Playfair Display", serif;
+        color: #342619;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: #dfb21e;
+        background-color: rgb(136, 114, 100);
+
+        .map-icon {
+          margin-right: 10px;
+        }
+      }
+
+      .title-parients {
+        font-family: "Playfair Display", serif;
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin-bottom: 5px;
+        color: #342619;
+      }
+
+      .parients {
+        h3 {
+          font-family: "Playfair Display", serif;
+          font-size: 1.2rem;
+          font-weight: 300;
+          color: #342619;
+        }
+      }
+    }
+  }
+}
+
+@media (768px <= width <= 1023px) {
+  .date-container {
+    margin-top: 30px;
+
+    .final-countdown {
+      h5 {
+        font-size: 2.5rem;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        font-size: 1.5rem;
+        margin-bottom: -70px;
+        z-index: 5;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-top: -80px;
+      margin-bottom: -100px;
+    }
+
+    .data-church {
+      margin: 50px 0;
+
+      .title-section {
+        img {
+          width: 20%;
+          margin-top: -123px;
+        }
+
+        h2 {
+          font-size: 2.5rem;
+          margin: 0 5px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 2rem;
+      }
+
+      .direction {
+        font-size: 1.7rem;
+      }
+
+      .time {
+        font-size: 1.7rem;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: #dfb21e;
+        background-color: rgb(136, 114, 100);
+
+        .map-icon {
+          margin-right: 10px;
+        }
+      }
+
+      .title-parients {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 5px;
+        color: #342619;
+      }
+
+      .parients {
+        h3 {
+          font-family: "Playfair Display", serif;
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #342619;
+        }
+      }
+    }
+  }
+}
+
+@media (1024px <= width <= 1199px) {
+  .date-container {
+    width: 100%;
+    margin-top: 30px;
+
+    .final-countdown {
+      h5 {
+        font-size: 2.5rem;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 2rem;
+        margin-bottom: -70px;
+        z-index: 5;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-top: -80px;
+      margin-bottom: -140px;
+    }
+
+    .data-church {
+      margin: 30px 0;
+
+      .title-section {
+        img {
+          width: 20%;
+          margin-top: -170px;
+        }
+
+        h2 {
+          font-size: 2.5rem;
+          margin: 0 5px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 2rem;
+      }
+
+      .direction {
+        font-size: 1.7rem;
+      }
+
+      .time {
+        font-size: 1.7rem;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        font-size: 1.7rem;
+      }
+
+      .title-parients {
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+      }
+
+      .parients {
+        h3 {
+          font-size: 1.7rem;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (1200px <= width <= 1919px) {
+  .date-container {
+    margin-top: 50px;
+
+    .final-countdown {
+      h5 {
+        font-size: 2rem;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        font-size: 1.2rem;
+        z-index: 5;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-top: -80px;
+      margin-bottom: -140px;
+    }
+
+    .data-church {
+      margin: 30px 0;
+
+      .title-section {
+        img {
+          width: 20%;
+          margin-top: -160px;
+        }
+
+        h2 {
+          font-size: 2rem;
+          margin: 0 5px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 1.2rem;
+      }
+
+      .direction {
+        font-size: 1.2rem;
+      }
+
+      .time {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-size: 1.2rem;
+      }
+    }
+
+    .title-parients {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+
+    .parients {
+      h3 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media (1920px <= width <= 2600px) {
+  .date-container {
+    margin-top: 50px;
+
+    .final-countdown {
+      h5 {
+        font-size: 3rem;
+      }
+
+      .cita-countdown {
+        width: 80%;
+        font-size: 1.5rem;
+        margin-bottom: -150px;
+      }
+    }
+
+    img {
+      margin-bottom: -170px;
+      margin-top: -110px;
+    }
+
+    .data-church {
+      margin: 50px 0;
+
+      .title-section {
+        img {
+          width: 20%;
+          margin-top: -215px;
+        }
+
+        h2 {
+          font-size: 2.7rem;
+          margin: 0 5px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .title-names {
+        font-size: 1.5rem;
+      }
+
+      .direction {
+        font-size: 1.5rem;
+      }
+
+      .time {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+      }
+
+      a {
+        padding: 10px 25px;
+        font-size: 1.5rem;
+      }
+
+      .title-parients {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+      }
+
+      .parients {
+        h3 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (2661px <= width) {
+}
+
+.date-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../../assets/bg3.png");
+  background-position: center center;
+  background-size: cover;
+
+  .final-countdown {
+    z-index: 10;
+
+    h5 {
+      font-family: "Playfair Display", serif;
+      color: #342619;
+    }
+
+    .cita-countdown {
+      margin: 0 auto;
+      font-family: "Playfair Display", serif;
+      color: #8d7157;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .data-church {
+    .title-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        font-family: "Playfair Display", serif;
+        color: #342619;
+      }
+    }
+
+    .title-names {
+      font-family: "Playfair Display", serif;
+      color: #342619;
+    }
+
+    .direction {
+      font-family: "Playfair Display", serif;
+      color: #342619;
+    }
+
+    .time {
+      font-family: "Playfair Display", serif;
+      color: #342619;
+    }
+
+    a {
+      border-radius: 30px;
+      font-family: "Playfair Display", serif;
+      font-weight: 500;
+      color: #dfb21e;
+      background-color: rgb(136, 114, 100);
+
+      .map-icon {
+        margin-right: 10px;
+      }
+    }
+
+    .title-parients {
+      font-family: "Playfair Display", serif;
+      font-weight: 800;
+      color: #342619;
+    }
+
+    .parients {
+      h3 {
+        font-family: "Playfair Display", serif;
+        font-weight: 300;
+        color: #342619;
+      }
+    }
+  }
+}

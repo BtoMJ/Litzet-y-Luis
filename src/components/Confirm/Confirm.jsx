@@ -1,0 +1,44 @@
+import { FaWhatsapp } from "react-icons/fa";
+import grecaIZQ from "../../assets/greca2.png";
+import grecaDER from "../../assets/greca3.png";
+import "./Confirm.css";
+
+function Confirm({ guest }) {
+  const sendToWhatsapp = () => {
+    const message = `${guest?.name} Confirma asistencia al evento`;
+
+    const phone = "5214761136307";
+
+    const urlWhatsApp = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(urlWhatsApp, "_blank");
+  };
+
+  return (
+    <section className="confirm-container">
+      <div className="title-section">
+        <img src={grecaIZQ} alt="adorno izquierdo" />
+        <h2>Asistencia</h2>
+        <img src={grecaDER} alt="adorno derecho" />
+      </div>
+      <p>¡Gracias por acompañarme en este día tan importante!</p>
+      <p>Favor de confirmar tu asistencia antes del evento.</p>
+      <p>¡Muchas Gracias!</p>
+
+      <div className="pase">
+        <p className="user-name">{guest?.name}</p>
+        <p className={guest?.adults !== 0 ? "pase-count" : "pase-no-count"}>
+          Adultos: {guest?.adults}
+        </p>
+        <p className={guest?.kids !== 0 ? "pase-count" : "pase-no-count"}>
+          Niños: {guest?.kids}
+        </p>
+      </div>
+
+      <button className="btn-whatsapp" onClick={sendToWhatsapp}>
+        <FaWhatsapp className="whatsapp-icon" /> Confirmar
+      </button>
+    </section>
+  );
+}
+
+export default Confirm;
