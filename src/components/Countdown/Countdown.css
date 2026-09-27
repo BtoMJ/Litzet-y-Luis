@@ -34,38 +34,6 @@
   }
 }
 
-@media (481px <= width <= 767px) and (orientation: landscape) {
-  .countdown-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
-    padding: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .countdown-container .number {
-    width: 80px;
-    height: 80px;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    background-color: #2f3e5f;
-    font-family: "Inter", sans-serif;
-    color: #b38d0b;
-    margin-bottom: -20px;
-  }
-
-  .countdown-container p {
-    font-size: 1.5rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
-  }
-}
-
 @media (768px <= width <= 1023px) {
   .countdown-container {
     .number-container {
@@ -141,7 +109,7 @@
     .number-container {
       gap: 1rem;
       padding: 0.7rem;
-      margin-top: 55px;
+      margin-top: 15px;
       margin-bottom: 10px;
 
       .number-bg {
@@ -173,23 +141,23 @@
 
 @media (1920px <= width <= 2660px) {
   .countdown-container {
-    gap: 2.5rem;
+    gap: 1.5rem;
     padding: 1rem;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-bottom: 10px;
 
     .number-container {
       .number-bg {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
 
         .number {
-          font-size: 2.5rem;
+          font-size: 2.2rem;
         }
 
         .glass {
-          width: 70px;
-          height: 70px;
+          width: 60px;
+          height: 60px;
           top: 5px;
           left: 5px;
         }
@@ -209,36 +177,41 @@
   }
 }
 
-@media (2661px <= width) {
+@media (2601px <= width) {
   .countdown-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
+    gap: 3rem;
     padding: 1rem;
+    margin-top: 50px;
     margin-bottom: 10px;
-  }
 
-  .countdown-container .number {
-    width: 120px;
-    height: 120px;
-    font-size: 4rem;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    background-color: #2f3e5f;
-    font-family: "Inter", sans-serif;
-    color: #b38d0b;
-    margin-bottom: -20px;
-    margin: 10px;
-  }
+    .number-container {
+      .number-bg {
+        width: 120px;
+        height: 120px;
 
-  .countdown-container p {
-    font-size: 2.5rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
+        .number {
+          font-size: 3rem;
+        }
+
+        .glass {
+          width: 110px;
+          height: 110px;
+          top: 5px;
+          left: 5px;
+        }
+      }
+
+      .title {
+        p {
+          font-size: 2rem;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
   }
 }
 

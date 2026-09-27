@@ -8,29 +8,30 @@
   background-image: url("../../assets/bg3.png");
   background-position: center center;
   background-size: cover;
+  color: var(--text);
 
   @media (320px <= width <= 480px) and (min-height: 741px) {
     height: 85dvh;
   }
 
   @media (768px <= width <= 1023px) {
-    height: 80dvh;
-  }
-
-  @media (1024px <= width <= 1279px) {
-    height: 85dvh;
-  }
-
-  @media (1280px <= width <= 1439px) {
-    height: 100dvh;
-  }
-
-  @media (1440px <= width <= 1919px) {
     height: 70dvh;
   }
 
+  @media (1024px <= width <= 1279px) {
+    height: 55dvh;
+  }
+
+  @media (1280px <= width <= 1439px) {
+    height: 80dvh;
+  }
+
+  @media (1440px <= width <= 1919px) {
+    height: 60dvh;
+  }
+
   @media (1920px <= width <= 2600px) {
-    height: 85dvh;
+    height: 75dvh;
   }
 
   @media (2601px <= width) {
@@ -45,13 +46,30 @@
 
     h2 {
       margin: 0 5px;
+      color: var(--text);
 
       @media (320px <= width <= 480px) {
         font-size: 2.2rem;
       }
 
+      @media (768px <= width <= 1023px) {
+        font-size: 2.5rem;
+      }
+
       @media (1024px <= width <= 1199px) {
-        font-size: 3.5rem;
+        font-size: 2.6rem;
+      }
+
+      @media (1200px <= width <= 1439px) {
+        font-size: 2.2rem;
+      }
+
+      @media (1440px <= width <= 1919px) {
+        font-size: 2rem;
+      }
+
+      @media (1920px <= width <= 2600px) {
+        font-size: 2.7rem;
       }
 
       @media (2601px <= width) {
@@ -72,15 +90,31 @@
     margin-top: 1rem;
     font-family: "Playfair Display", serif;
     font-weight: 300;
+    color: var(--text);
 
     @media (320px <= width <= 480px) {
       font-size: 1.2rem;
       margin-top: 2rem;
     }
 
+    @media (768px <= width <= 1023px) {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+
     @media (1024px <= width <= 1279px) {
       width: 60%;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
+    }
+
+    @media (1280px <= width <= 1439px) {
+      width: 75%;
+      font-size: 1.2rem;
+    }
+
+    @media (1440px <= width <= 1919px) {
+      width: 75%;
+      font-size: 1.2rem;
     }
 
     @media (1920px <= width <= 2600px) {
@@ -128,15 +162,10 @@
 
   .pase {
     width: 90%;
-    height: 190px;
-    /* border: 9px solid rgba(136, 114, 100, 0.2); */
-    /* border-radius: 5px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    margin: 2rem 0;
     background-image: url("../../assets/pase.png");
     background-position: center center;
     background-size: 105%;
@@ -144,26 +173,37 @@
 
     @media (320px <= width <= 480px) and (min-height: 668px) {
       margin: 3rem 0;
+      height: 190px;
     }
 
     @media (768px <= width <= 1023px) {
-      width: 60%;
+      width: 65%;
+      height: 190px;
+      margin: 2rem 0;
     }
 
     @media (1024px <= width <= 1279px) {
-      width: 50%;
+      width: 60%;
+      height: 190px;
+      margin: 2rem 0;
     }
 
     @media (1280px <= width <= 1439px) {
       width: 75%;
+      height: 160px;
+      margin: 2rem 0;
     }
 
     @media (1440px <= width <= 1919px) {
       width: 70%;
+      height: 170px;
+      margin: 2rem 0;
     }
 
     @media (1920px <= width <= 2600px) {
       width: 60%;
+      height: 190px;
+      margin: 2rem 0;
     }
 
     @media (2601px <= width) {
@@ -178,13 +218,32 @@
 
     .user-name {
       position: relative;
-      font-size: 2rem;
       font-weight: 500;
       font-family: "Playfair Display", serif;
       color: var(--text);
 
       @media (320px <= width <= 480px) {
         font-size: 1.5rem;
+      }
+
+      @media (768px <= width <= 1023px) {
+        font-size: 1.5rem;
+      }
+
+      @media (1024px <= width <= 1279px) {
+        font-size: 1.5rem;
+      }
+
+      @media (1280px <= width <= 1439px) {
+        font-size: 1.5rem;
+      }
+
+      @media (1440px <= width <= 1919px) {
+        font-size: 1.1rem;
+      }
+
+      @media (1920px <= width <= 2600px) {
+        font-size: 1.2rem;
       }
 
       @media (2601px <= width) {
@@ -202,6 +261,26 @@
 
       @media (320px <= width <= 480px) and (min-height: 741px) {
         font-size: 1.3rem;
+      }
+
+      @media (768px <= width <= 1023px) {
+        font-size: 1.3rem;
+      }
+
+      @media (1024px <= width <= 1279px) {
+        font-size: 1.3rem;
+      }
+
+      @media (1280px <= width <= 1439px) {
+        font-size: 1rem;
+      }
+
+      @media (1440px <= width <= 1919px) {
+        font-size: 1rem;
+      }
+
+      @media (1920px <= width <= 2600px) {
+        font-size: 1rem;
       }
 
       @media (2601px <= width) {

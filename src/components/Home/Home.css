@@ -53,12 +53,12 @@
       margin-top: -7vh;
 
       .names {
-        width: 85%;
+        width: 63%;
         font-size: 2.5rem;
       }
 
       .date-names {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 5px;
       }
 
@@ -136,35 +136,25 @@
     }
 
     .names-container {
-      justify-content: flex-start;
       margin-top: -8vh;
 
       .names {
-        font-family: "Playfair Display", serif;
-        font-weight: 600;
-        font-size: 2.5rem;
-        color: #342619;
-
-        span {
-          color: #dfb21e;
-        }
+        width: 60%;
+        font-size: 2.8rem;
       }
 
       .date-names {
-        font-family: "Playfair Display", serif;
-        font-size: 2rem;
-        color: #342619;
+        font-size: 1.6rem;
       }
 
       img {
-        width: 75%;
-        margin-top: 2px;
+        width: 65%;
       }
     }
   }
 }
 
-@media (1024px <= width <= 1199px) {
+@media (1024px <= width <= 1279px) {
   .home-container {
     .home-photo {
       width: 120%;
@@ -181,12 +171,12 @@
     }
 
     .names-container {
-      margin-top: -9vh;
-      z-index: 100;
+      margin-top: -13vh;
+      z-index: 5;
 
       .names {
-        width: 65%;
-        font-size: 2.5rem;
+        width: 55%;
+        font-size: 3.5rem;
       }
 
       .date-names {
@@ -194,14 +184,13 @@
       }
 
       img {
-        width: 75%;
-        margin-top: 2px;
+        width: 65%;
       }
     }
   }
 }
 
-@media (1200px <= width <= 1919px) {
+@media (1280px <= width <= 1439px) {
   .home-container {
     .home-photo {
       width: 100%;
@@ -213,12 +202,48 @@
     }
 
     .names-container {
-      margin-top: -9vh;
+      margin-top: -11vh;
       z-index: 100;
 
       .names {
+        width: 60%;
+        font-size: 2.3rem;
+      }
+
+      .date-names {
+        font-size: 1.3rem;
+      }
+
+      img {
         width: 75%;
-        font-size: 2rem;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+@media (1440px <= width <= 1919px) {
+  .home-container {
+    .home-photo {
+      width: 120%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+
+      img {
+        width: 100%;
+        position: relative;
+      }
+    }
+
+    .names-container {
+      margin-top: -8vh;
+      z-index: 5;
+
+      .names {
+        width: 65%;
+        font-size: 3rem;
       }
 
       .date-names {
@@ -226,8 +251,8 @@
       }
 
       img {
-        width: 75%;
-        margin-top: 2px;
+        width: 65%;
+        margin-top: 1.5rem;
       }
     }
   }
@@ -235,20 +260,12 @@
 
 @media (1920px <= width <= 2600px) {
   .home-container {
-    width: 100%;
-    height: 100dvh;
     padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 
     .home-photo {
       width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      align-items: center;
 
       img {
         width: 100%;
@@ -257,17 +274,11 @@
     }
 
     .names-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      margin-top: -12vh;
+      margin-top: -8vh;
 
       .names {
-        font-family: "Playfair Display", serif;
-        font-weight: 600;
-        font-size: 3rem;
-        color: #342619;
+        width: 65%;
+        font-size: 4rem;
 
         span {
           color: #dfb21e;
@@ -275,15 +286,13 @@
       }
 
       .date-names {
-        font-family: "Playfair Display", serif;
-        font-size: 2rem;
-        margin-top: -10px;
-        color: #342619;
+        font-size: 2em;
+        margin-top: -5px;
       }
 
       img {
-        width: 65%;
-        margin-top: -10px;
+        width: 60%;
+        margin-top: 10px;
       }
     }
   }
@@ -291,38 +300,23 @@
 
 @media (2600px <= width) {
   .home-container {
-    width: 100dvw;
-    height: 100dvh;
     padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 50px;
 
     .home-photo {
       width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      align-items: center;
 
       img {
-        width: 100%;
+        width: 101%;
       }
     }
 
     .names-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      margin-top: -12vh;
+      margin-top: -10vh;
 
       .names {
-        font-family: "Playfair Display", serif;
-        font-weight: 600;
-        font-size: 2.2rem;
-        color: #342619;
+        width: 60%;
+        font-size: 6rem;
 
         span {
           color: #dfb21e;
@@ -330,15 +324,12 @@
       }
 
       .date-names {
-        font-family: "Playfair Display", serif;
-        font-size: 1.5rem;
-        margin-top: -10px;
-        color: #342619;
+        font-size: 3rem;
       }
 
       img {
         width: 65%;
-        margin-top: -8px;
+        margin-top: 15px;
       }
     }
   }
@@ -346,7 +337,7 @@
 
 .home-container {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;

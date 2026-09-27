@@ -2,7 +2,6 @@ const data = [
   {
     id: 1,
     name: "Fam. Torres Murguía",
-    phone: "476 728 4676",
     adults: 3,
     kids: 0,
     url: "fam-torres-murguia",
@@ -10,7 +9,6 @@ const data = [
   {
     id: 2,
     name: "Fam. Torres López",
-    phone: "476 110 0149",
     adults: 4,
     kids: 2,
     url: "fam-torres-lopez",
@@ -18,7 +16,6 @@ const data = [
   {
     id: 3,
     name: "Fam. Murguía Hernández",
-    phone: "477 241 9362",
     adults: 7,
     kids: 0,
     url: "fam-murguia-hernandez",
@@ -26,7 +23,6 @@ const data = [
   {
     id: 4,
     name: "Fam. Granados Murguía",
-    phone: "476 737 9926",
     adults: 6,
     kids: 0,
     url: "fam-granados-murguia",
@@ -34,7 +30,6 @@ const data = [
   {
     id: 5,
     name: "Fam. García Murguía",
-    phone: "476 149 6093",
     adults: 7,
     kids: 0,
     url: "fam-garcia-murguia",
@@ -42,7 +37,6 @@ const data = [
   {
     id: 6,
     name: "Fam. Jiménez García",
-    phone: "476 145 4241",
     adults: 5,
     kids: 1,
     url: "fam-jimenez-garcia-1",
@@ -50,7 +44,6 @@ const data = [
   {
     id: 7,
     name: "Fam. García López",
-    phone: "476 100 9629",
     adults: 6,
     kids: 1,
     url: "fam-garcia-lopez",
@@ -58,7 +51,6 @@ const data = [
   {
     id: 8,
     name: "Fam. Jiménez García",
-    phone: "476 709 3364",
     adults: 4,
     kids: 1,
     url: "fam-jimenez-garcia-2",
@@ -66,7 +58,6 @@ const data = [
   {
     id: 9,
     name: "Francisco Murguía y Fam.",
-    phone: "477 324 3280",
     adults: 7,
     kids: 0,
     url: "francisco-murguia",
@@ -74,7 +65,6 @@ const data = [
   {
     id: 10,
     name: "Norma Murguía y Fam.",
-    phone: "476 160 2615",
     adults: 2,
     kids: 0,
     url: "norma-murguia",
@@ -82,7 +72,6 @@ const data = [
   {
     id: 11,
     name: "Fam. Murguía García",
-    phone: "476 116 8311",
     adults: 6,
     kids: 0,
     url: "fam-murguia-garcia",
@@ -90,7 +79,6 @@ const data = [
   {
     id: 12,
     name: "Fam. Murguía Cantú",
-    phone: "477 324 7608",
     adults: 10,
     kids: 2,
     url: "fam-murguia-cantu",
@@ -98,7 +86,6 @@ const data = [
   {
     id: 13,
     name: "Fam. Murguía Rafael",
-    phone: "476 125 7324",
     adults: 8,
     kids: 3,
     url: "fam-murguia-rafael",
@@ -106,7 +93,6 @@ const data = [
   {
     id: 14,
     name: "Fam. Noriega Murguía",
-    phone: "476 157 8280",
     adults: 6,
     kids: 1,
     url: "fam-noriega-murguia",
@@ -114,7 +100,6 @@ const data = [
   {
     id: 15,
     name: "Fam. Apolinar Torres",
-    phone: "476 107 9307",
     adults: 8,
     kids: 2,
     url: "fam-apolinar-torres",
@@ -122,7 +107,6 @@ const data = [
   {
     id: 16,
     name: "Fam. Torres Muñoz",
-    phone: "477 661 4869",
     adults: 3,
     kids: 0,
     url: "fam-torres-munoz",
@@ -130,7 +114,6 @@ const data = [
   {
     id: 17,
     name: "Fam. Torres Castro",
-    phone: "476 747 9358",
     adults: 8,
     kids: 1,
     url: "fam-torres-castro",
@@ -138,7 +121,6 @@ const data = [
   {
     id: 18,
     name: "Fam. Torres Bustos",
-    phone: "476 145 0982",
     adults: 5,
     kids: 4,
     url: "fam-torres-bustos",
@@ -146,7 +128,6 @@ const data = [
   {
     id: 19,
     name: "Fam. González Florido",
-    phone: "476 586 6248",
     adults: 3,
     kids: 2,
     url: "fam-gonzalez-florido",
@@ -154,7 +135,6 @@ const data = [
   {
     id: 20,
     name: "Fam. González Pérez",
-    phone: "477 328 3916",
     adults: 2,
     kids: 2,
     url: "fam-gonzalez-perez",
@@ -162,7 +142,6 @@ const data = [
   {
     id: 21,
     name: "Fam. González Escareño",
-    phone: "476 135 2450",
     adults: 4,
     kids: 0,
     url: "fam-gonzalez-escareno",
@@ -170,7 +149,6 @@ const data = [
   {
     id: 22,
     name: "Fam. Jaramillo González",
-    phone: "476 149 5706",
     adults: 3,
     kids: 1,
     url: "fam-jaramillo-gonzalez",
@@ -178,7 +156,6 @@ const data = [
   {
     id: 23,
     name: "Fam. González Meléndez",
-    phone: "476 709 0211",
     adults: 3,
     kids: 0,
     url: "fam-gonzalez-melendez",
@@ -186,7 +163,6 @@ const data = [
   {
     id: 24,
     name: "Fam. Hernández González",
-    phone: "473 134 6731",
     adults: 3,
     kids: 2,
     url: "fam-hernandez-gonzalez",
@@ -194,7 +170,6 @@ const data = [
   {
     id: 25,
     name: "Fam. González Arenas",
-    phone: "476 160 2953",
     adults: 2,
     kids: 1,
     url: "fam-gonzalez-arenas",
@@ -202,7 +177,6 @@ const data = [
   {
     id: 26,
     name: "Fam. Gómez Gonzalez",
-    phone: "476 123 5466",
     adults: 2,
     kids: 1,
     url: "fam-gomez-gonzalez",
@@ -210,7 +184,6 @@ const data = [
   {
     id: 27,
     name: "Martín González y Fam.",
-    phone: "477 559 7659",
     adults: 6,
     kids: 0,
     url: "martin-gonzalez",
@@ -218,7 +191,6 @@ const data = [
   {
     id: 28,
     name: "María González y Fam.",
-    phone: "476 145 3098",
     adults: 5,
     kids: 0,
     url: "maria-gonzalez",
@@ -226,7 +198,6 @@ const data = [
   {
     id: 29,
     name: "Francisco González",
-    phone: "476 173 9408",
     adults: 1,
     kids: 0,
     url: "francisco-gonzalez",
@@ -234,7 +205,6 @@ const data = [
   {
     id: 30,
     name: "Elvia Pérez Martínez",
-    phone: "476 159 8401",
     adults: 3,
     kids: 0,
     url: "elvia-perez",
@@ -242,7 +212,6 @@ const data = [
   {
     id: 31,
     name: "Fam. Reyes González",
-    phone: "476 109 2555",
     adults: 3,
     kids: 1,
     url: "fam-reyes-gonzalez",
@@ -250,7 +219,6 @@ const data = [
   {
     id: 32,
     name: "Fam. González Olivarez",
-    phone: "476 113 8264",
     adults: 3,
     kids: 2,
     url: "fam-gonzalez-olivarez",
@@ -258,7 +226,6 @@ const data = [
   {
     id: 33,
     name: "Fam. González Alba",
-    phone: "476 150 3641",
     adults: 5,
     kids: 4,
     url: "fam-gonzalez-alba",
@@ -266,7 +233,6 @@ const data = [
   {
     id: 34,
     name: "Amelia Pérez y Fam.",
-    phone: "476 160 2351",
     adults: 8,
     kids: 1,
     url: "amelia-perez",
@@ -274,7 +240,6 @@ const data = [
   {
     id: 35,
     name: "Daniel Pérez y Fam.",
-    phone: "476 141 7949",
     adults: 8,
     kids: 4,
     url: "daniel-perez",
@@ -282,7 +247,6 @@ const data = [
   {
     id: 36,
     name: "Raúl Pérez y Fam.",
-    phone: "476 148 3410",
     adults: 6,
     kids: 5,
     url: "raul-perez",
@@ -290,7 +254,6 @@ const data = [
   {
     id: 37,
     name: "Jorge González",
-    phone: "476 170 5499",
     adults: 2,
     kids: 0,
     url: "jorge-gonzalez",
@@ -298,7 +261,6 @@ const data = [
   {
     id: 38,
     name: "Rogelio César y Fam.",
-    phone: "476 656 5424",
     adults: 2,
     kids: 2,
     url: "rogelio-cesar",
@@ -306,7 +268,6 @@ const data = [
   {
     id: 39,
     name: "Diego Ángeles y Fam.",
-    phone: "477 122 7899",
     adults: 2,
     kids: 2,
     url: "diego-angeles",
@@ -314,7 +275,6 @@ const data = [
   {
     id: 40,
     name: "Mila Murguía y Fam.",
-    phone: "476 130 1483",
     adults: 5,
     kids: 2,
     url: "mila-murguia",
@@ -322,7 +282,6 @@ const data = [
   {
     id: 41,
     name: "Socorro Murguía y Fam.",
-    phone: "476 145 1726",
     adults: 4,
     kids: 0,
     url: "socorro-murguia",
@@ -330,7 +289,6 @@ const data = [
   {
     id: 42,
     name: "Sandra Soto y Fam.",
-    phone: "462 113 2473",
     adults: 5,
     kids: 0,
     url: "sandra-soto",
@@ -338,7 +296,6 @@ const data = [
   {
     id: 43,
     name: "Fam. Salazar Murguía",
-    phone: "476 130 7512",
     adults: 4,
     kids: 0,
     url: "fam-salazar-murguia",
@@ -346,7 +303,6 @@ const data = [
   {
     id: 44,
     name: "Francisco Mendoza y Fam.",
-    phone: "",
     adults: 4,
     kids: 0,
     url: "francisco-mendoza",
@@ -354,7 +310,6 @@ const data = [
   {
     id: 45,
     name: "Jessica Altamirano",
-    phone: "476 113 7812",
     adults: 3,
     kids: 2,
     url: "jessica-altamirano",
@@ -362,7 +317,6 @@ const data = [
   {
     id: 46,
     name: "Zaira Flores",
-    phone: "476 111 8030",
     adults: 4,
     kids: 0,
     url: "zaira-flores",
@@ -370,7 +324,6 @@ const data = [
   {
     id: 47,
     name: "Paola Montoya",
-    phone: "476 141 9899",
     adults: 3,
     kids: 0,
     url: "paola-montoya",
@@ -378,7 +331,6 @@ const data = [
   {
     id: 48,
     name: "Joel Florido y Fam.",
-    phone: "476 130 5910",
     adults: 3,
     kids: 2,
     url: "joel-florido",
@@ -386,7 +338,6 @@ const data = [
   {
     id: 49,
     name: "Edgar Gámez",
-    phone: "477 151 7890",
     adults: 2,
     kids: 0,
     url: "edgar-gamez",
@@ -394,7 +345,6 @@ const data = [
   {
     id: 50,
     name: "Jovana y Fam.",
-    phone: "477 161 7244",
     adults: 4,
     kids: 0,
     url: "jovana",
@@ -402,7 +352,6 @@ const data = [
   {
     id: 51,
     name: "Ing. Helito y Fam.",
-    phone: "477 495 1551",
     adults: 4,
     kids: 0,
     url: "ing-helito",
@@ -410,7 +359,6 @@ const data = [
   {
     id: 52,
     name: "Fam. Muñoz Sansón",
-    phone: "476 130 8158",
     adults: 9,
     kids: 6,
     url: "fam-munoz-sanson",
@@ -418,7 +366,6 @@ const data = [
   {
     id: 53,
     name: "Toñita Mendoza y Fam.",
-    phone: "476 136 2263",
     adults: 4,
     kids: 1,
     url: "tonita-mendoza",
@@ -426,7 +373,6 @@ const data = [
   {
     id: 54,
     name: "Antonio Cordero y Fam.",
-    phone: "476 747 2768",
     adults: 3,
     kids: 1,
     url: "antonio-cordero",
@@ -434,7 +380,6 @@ const data = [
   {
     id: 55,
     name: "Charo Granados y Fam.",
-    phone: "432 109 7625",
     adults: 2,
     kids: 1,
     url: "charo-granados",
@@ -442,7 +387,6 @@ const data = [
   {
     id: 56,
     name: "Fanny Plascencia",
-    phone: "476 170 3088",
     adults: 2,
     kids: 2,
     url: "fanny-plascencia",
@@ -450,26 +394,16 @@ const data = [
   {
     id: 57,
     name: "Ana Judit Díaz",
-    phone: "476 112 9074",
     adults: 2,
     kids: 0,
     url: "ana-judit-diaz",
   },
   {
     id: 58,
-    name: "Fam. Murguía Sánchez",
-    phone: "476 126 5341",
-    adults: 7,
-    kids: 4,
-    url: "fam-murguia-sanchez",
-  },
-  {
-    id: 59,
-    name: "Fam. Díaz",
-    phone: "868 157 8949",
-    adults: 0,
+    name: "Michel",
+    adults: 2,
     kids: 0,
-    url: "fam-diaz",
+    url: "fam-murguia-sanchez",
   },
 ];
 

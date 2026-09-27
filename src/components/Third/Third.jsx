@@ -2,9 +2,22 @@ import dress from "../../assets/dresscode.png";
 import examples from "../../assets/examples.png";
 import grecaIZQ from "../../assets/greca2.png";
 import grecaDER from "../../assets/greca3.png";
+import { IoCopy } from "react-icons/io5";
 import "./Third.css";
 
 function Third() {
+  function copyText() {
+    const input = document.getElementById("inputCopy");
+
+    navigator.clipboard
+      .writeText(input.value)
+      .then(() => {
+        alert("¡Texto copiado con éxito!");
+      })
+      .catch((err) => {
+        console.log("Error al copiar el texto: ", err);
+      });
+  }
   return (
     <section className="gif-container">
       <div className="dress-code">
@@ -16,7 +29,7 @@ function Third() {
 
         <h4>Formal</h4>
 
-        <img src={dress} />
+        <img src={dress} alt="imagen de vestimenta" />
 
         <p className="dress-description">
           Para esta ocasión, te pedimos un atuendo formal, en color negro
@@ -41,7 +54,19 @@ function Third() {
         podrás depositar.
       </p>
 
-      <div className="bank">722969010992018357</div>
+      <div className="bank-container">
+        <input
+          type="text"
+          className="bank"
+          id="inputCopy"
+          value="722969010992018357"
+          disabled
+        ></input>
+        <button className="btn-copy" onClick={copyText}>
+          <IoCopy className="btn-icon-copy" />
+          Copiar
+        </button>
+      </div>
     </section>
   );
 }

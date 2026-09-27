@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  color: var(--text);
 }
 
 a {
@@ -112,8 +113,13 @@ a {
 }
 
 @media (2661px <= width) {
+  body {
+    background-image: url("./assets/paper2.png");
+    background-repeat: repeat;
+  }
+
   .container .info {
-    width: 50dvw;
+    width: 30dvw;
     box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
   }
 }

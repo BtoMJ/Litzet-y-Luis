@@ -1,4 +1,3 @@
-// import second from "../../assets/Second.png";
 import Countdown from "../Countdown/Countdown";
 import { FaMapLocationDot } from "react-icons/fa6";
 import grecaIZQ from "../../assets/greca2.png";
@@ -16,9 +15,8 @@ function Second() {
             Hoy el amor nos encontró, y decidimos no soltarnos jamás.
           </p>
         </div>
-
-        {/* <img src={second} alt="foto anillo de compromiso" /> */}
         <Carrusel2 />
+        <h4>Faltan</h4>
         <Countdown />
 
         <div className="data-church">
@@ -50,7 +48,6 @@ function Second() {
           <p className="title-names">Salón Lupe Díaz</p>
           <p className="direction">La Escondida, San Fco. del Rincón</p>
           <p className="time">4:30 pm</p>
-          {/* <img className="church" src={salon} alt="templo" /> */}
           <a
             href="https://www.google.com/maps/place/Sal%C3%B3n+de+eventos+Lupe+Diaz/@21.0218469,-101.8168311,19z/data=!4m7!3m6!1s0x842be90016df9ed9:0x1b1bcedaaf7e1b71!4b1!8m2!3d21.0217385!4d-101.8167152!16s%2Fg%2F11yb5nml7z?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
             target="_blanck"

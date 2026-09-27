@@ -1,4 +1,4 @@
-@media (320px <= width <= 480px) {
+@media (320px <= width <= 480px) and (max-height: 667px) {
   .carrusel-container {
     width: 85%;
 
@@ -13,40 +13,123 @@
         width: 100%;
         height: 700px;
       }
+
+      .slide-container-1 {
+        background-position: top 10% center;
+        background-size: 160% !important;
+      }
+
+      .slide-container-2 {
+        background-position: top 10% center;
+        background-size: 140% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top 10% center;
+        background-size: 170% !important;
+      }
     }
   }
 }
 
-@media (481px <= width <= 767px) and (orientation: landscape) {
-}
-
-@media (768px <= width <= 1023px) {
+@media (320px <= width <= 480px) and (min-height: 668px) and (max-height: 955px) {
   .carrusel-container {
-    width: 90%;
+    width: 85%;
 
     .carousel-fade {
-      width: 90%;
-      min-height: 500px;
+      width: 100%;
+      min-height: 600px;
       margin: 50px 0 20px 0;
 
       .slide-container-1,
       .slide-container-2,
-      .slide-container-3,
-      .slide-container-4 {
+      .slide-container-3 {
+        width: 100%;
+        height: 700px;
+      }
+
+      .slide-container-1 {
+        background-position: top 50% center;
+        background-size: 150% !important;
+      }
+
+      .slide-container-2 {
+        background-position: top 10% center;
+        background-size: 140% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top -10% center;
+        background-size: 180% !important;
+      }
+    }
+  }
+}
+
+@media (320px <= width <= 480px) and (min-height: 956px) {
+  .carrusel-container {
+    width: 85%;
+
+    .carousel-fade {
+      width: 100%;
+      min-height: 600px;
+      margin: 50px 0 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3 {
+        width: 100%;
+        height: 700px;
+      }
+
+      .slide-container-1 {
+        background-position: top -1rem center;
+        background-size: 150% !important;
+      }
+
+      .slide-container-2 {
+        background-position: top -2rem center;
+        background-size: 135% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top 3rem center;
+        background-size: 150% !important;
+      }
+    }
+  }
+}
+
+@media (768px <= width <= 1023px) and (orientation: portrait) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 100%;
+      min-height: 700px;
+      margin: 50px 0 10px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3 {
         width: 90%;
         height: 700px;
       }
-    }
 
-    .cita {
-      width: 80%;
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-    }
+      .slide-container-1 {
+        background-position: top 10% center;
+        background-size: 135% !important;
+      }
 
-    .end-title {
-      width: 90%;
-      font-size: 2rem;
+      .slide-container-2 {
+        background-position: top 10% center;
+        background-size: 120% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top 10% center;
+        background-size: 150% !important;
+      }
     }
   }
 }
@@ -62,53 +145,60 @@
 
       .slide-container-1,
       .slide-container-2,
-      .slide-container-3,
-      .slide-container-4 {
+      .slide-container-3 {
         width: 90%;
         height: 700px;
       }
-    }
 
-    .cita {
-      width: 80%;
-      font-size: 1.7rem;
-      margin-bottom: 10px;
-    }
+      .slide-container-1 {
+        background-position: top 100% center;
+        background-size: 135% !important;
+      }
 
-    .end-title {
-      width: 90%;
-      font-size: 2.5rem;
+      .slide-container-2 {
+        background-position: top 100% center;
+        background-size: 120% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top 100% center;
+        background-size: 150% !important;
+      }
     }
   }
 }
 
-@media (1200px <= width <= 1919px) {
+@media (1200px <= width <= 1439px) {
   .carrusel-container {
     width: 90%;
 
     .carousel-fade {
       width: 90%;
-      min-height: 500px;
-      margin: 20px 0;
+      min-height: 450px;
+      margin: 10px 0;
 
       .slide-container-1,
       .slide-container-2,
       .slide-container-3,
       .slide-container-4 {
         width: 90%;
-        height: 700px;
+        height: 450px !important;
       }
-    }
 
-    .cita {
-      width: 80%;
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-    }
+      .slide-container-1 {
+        background-position: top 0rem center;
+        background-size: 135% !important;
+      }
 
-    .end-title {
-      width: 90%;
-      font-size: 2rem;
+      .slide-container-2 {
+        background-position: top 0rem center;
+        background-size: 120% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top 0rem center;
+        background-size: 150% !important;
+      }
     }
   }
 }
@@ -124,10 +214,24 @@
 
       .slide-container-1,
       .slide-container-2,
-      .slide-container-3,
-      .slide-container-4 {
+      .slide-container-3 {
         width: 90%;
         height: 700px;
+      }
+
+      .slide-container-1 {
+        background-position: top 0rem center;
+        background-size: 130% !important;
+      }
+
+      .slide-container-2 {
+        background-position: top -2rem center;
+        background-size: 120% !important;
+      }
+
+      .slide-container-3 {
+        background-position: top -2rem center;
+        background-size: 150% !important;
       }
     }
 
@@ -165,20 +269,14 @@
 
 .slide-container-1 {
   background-image: url("../../assets/slider/1.jpeg");
-  background-position: top 10% center;
-  background-size: 160% !important;
 }
 
 .slide-container-2 {
   background-image: url("../../assets/slider/2.jpeg");
-  background-position: top 10% center;
-  background-size: 140% !important;
 }
 
 .slide-container-3 {
   background-image: url("../../assets/slider/3.jpeg");
-  background-position: top 10% center;
-  background-size: 170% !important;
 }
 
 .carousel-fade {
