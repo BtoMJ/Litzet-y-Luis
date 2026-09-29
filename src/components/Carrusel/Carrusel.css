@@ -367,6 +367,50 @@
 }
 
 @media (2661px <= width) {
+  .carrusel-container-2 {
+    width: 90%;
+    margin: 0 auto;
+
+    .carousel-fade-2 {
+      width: 90%;
+      min-height: 1000px;
+      margin: 50px 0 20px 0;
+
+      .slider-container-4,
+      .slider-container-5,
+      .slider-container-6 {
+        width: 90%;
+        height: 1000px;
+      }
+
+      .slider-container-4 {
+        background-position: top -20rem right 0rem;
+        background-size: 110% !important;
+      }
+
+      .slider-container-5 {
+        background-position: top -13rem center;
+        background-size: 100% !important;
+      }
+
+      .slider-container-6 {
+        background-position: top -12rem center;
+        background-size: 130% !important;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90dvw;
+      font-size: 4rem;
+      padding-bottom: 1rem;
+    }
+  }
 }
 
 .carrusel-container-2 {

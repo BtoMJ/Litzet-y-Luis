@@ -401,44 +401,47 @@
   }
 }
 
-@media (1920px <= width <= 2600px) {
+@media (2661px <= width) {
   .date-container {
     margin-top: 50px;
 
     .final-countdown {
       h5 {
-        font-size: 3rem;
+        font-size: 4rem;
       }
 
       .cita-countdown {
-        width: 80%;
-        font-size: 1.5rem;
-        margin-bottom: -150px;
+        width: 70%;
+        font-size: 3rem;
+        z-index: 5;
       }
     }
 
     h4 {
-      font-size: 2rem;
-      margin-top: 15px;
+      font-size: 4rem;
+      margin-top: 25px;
+      margin-bottom: -2rem;
       font-family: "Playfair Display", serif;
     }
 
     img {
-      margin-bottom: -170px;
-      margin-top: -110px;
+      width: 100%;
+      margin-top: -80px;
+      margin-bottom: -140px;
     }
 
     .data-church {
-      margin: 50px 0;
+      margin: 30px 0;
 
       .title-section {
+        margin: 2rem 0 1rem 0;
         img {
           width: 20%;
-          margin-top: -215px;
+          margin-top: -170px;
         }
 
         h2 {
-          font-size: 2.7rem;
+          font-size: 4rem;
           margin: 0 5px;
           line-height: 30px;
           margin-bottom: 20px;
@@ -446,38 +449,37 @@
       }
 
       .title-names {
-        font-size: 1.5rem;
+        font-size: 3rem;
       }
 
       .direction {
-        font-size: 1.5rem;
+        font-size: 3rem;
       }
 
       .time {
-        font-size: 1.5rem;
-        margin-bottom: 25px;
+        font-size: 3rem;
+        margin-bottom: 50px;
       }
 
       a {
-        padding: 10px 25px;
-        font-size: 1.5rem;
+        padding: 7px 25px;
+        border-radius: 100px;
+        font-size: 2.7rem;
       }
+    }
 
-      .title-parients {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-      }
+    .title-parients {
+      font-size: 3rem;
+      margin-bottom: 5px;
+    }
 
-      .parients {
-        h3 {
-          font-size: 1.5rem;
-        }
+    .parients {
+      margin: 2rem 0;
+      h3 {
+        font-size: 3rem;
       }
     }
   }
-}
-
-@media (2661px <= width) {
 }
 
 .date-container {

@@ -671,7 +671,7 @@
         font-size: 3rem;
 
         span {
-          font-size: 2rem;
+          font-size: 2.5rem;
           font-style: italic;
           font-weight: bold;
         }
@@ -713,12 +713,39 @@
       margin: 2rem 0;
     }
 
-    a,
-    .bank {
-      padding: 10px 50px;
-      border-radius: 100%;
-      font-size: 2.5rem;
-      margin: 35px 0;
+    .bank-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .bank {
+        border: none;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 2.5rem;
+        margin: 35px 0;
+
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: #dfb21e;
+        background-color: rgb(136, 114, 100);
+        pointer-events: none;
+        text-align: center;
+      }
+
+      .btn-copy {
+        font-size: 2.5rem;
+        border: none;
+        color: #837769;
+        padding: 7px 25px;
+        border-radius: 30px;
+        background-color: #dfd7cf;
+        font-family: "Playfair Display", serif;
+
+        .btn-icon-copy {
+          margin-right: 20px;
+        }
+      }
     }
   }
 }

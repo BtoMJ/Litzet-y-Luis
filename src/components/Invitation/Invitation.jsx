@@ -15,9 +15,6 @@ function Invitation() {
 
   const guest = data.find((item) => item.url === fam);
 
-  console.log(fam);
-  console.log(guest);
-
   if (!guest) {
     return (
       <>
