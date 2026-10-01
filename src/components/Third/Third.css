@@ -132,7 +132,7 @@
       }
 
       h4 {
-        font-size: 2rem;
+        font-size: 2.5rem;
       }
 
       img {
@@ -141,10 +141,10 @@
 
       .dress-description {
         width: 80%;
-        font-size: 2rem;
+        font-size: 1.5rem;
 
         span {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           font-style: italic;
           font-weight: bold;
         }
@@ -180,7 +180,7 @@
 
     .gift-text {
       width: 80%;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     .bank-container {
@@ -244,10 +244,10 @@
 
       .dress-description {
         width: 65%;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
 
         span {
-          font-size: 1.1rem;
+          font-size: 1.4rem;
           font-style: italic;
           font-weight: bold;
         }
@@ -255,7 +255,7 @@
 
       .dress-description-2 {
         width: 80%;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         text-align: center;
         display: flex;
         flex-direction: column;
