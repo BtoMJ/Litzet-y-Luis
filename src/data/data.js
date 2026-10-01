@@ -263,7 +263,7 @@ const data = [
     name: "Fam. Rodríguez Sánchez.",
     adults: 6,
     kids: 1,
-    url: "fam-rodriguez-sanchez",
+    url: "fam-rodriguez-sanchez-2",
   },
   {
     id: 39,
