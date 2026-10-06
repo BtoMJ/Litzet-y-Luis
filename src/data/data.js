@@ -345,7 +345,7 @@ const data = [
   {
     id: 50,
     name: "Aron Chimal",
-    adults: 10,
+    adults: 5,
     kids: 0,
     url: "aron-chimal",
   },
@@ -425,6 +425,20 @@ const data = [
     adults: 2,
     kids: 0,
     url: "beto",
+  },
+  {
+    id: 62,
+    name: "Jaime García",
+    adults: 5,
+    kids: 0,
+    url: "jaime-garcia",
+  },
+  {
+    id: 63,
+    name: "Alejandra Rangel",
+    adults: 2,
+    kids: 1,
+    url: "alejandra-rangel",
   },
 ];
 
