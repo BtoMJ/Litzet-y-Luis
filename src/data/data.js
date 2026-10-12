@@ -440,6 +440,13 @@ const data = [
     kids: 1,
     url: "alejandra-rangel",
   },
+  {
+    id: 64,
+    name: "Fam. Noriega Gordillo",
+    adults: 4,
+    kids: 0,
+    url: "fam-noriega-gordillo",
+  },
 ];
 
 export default data;
