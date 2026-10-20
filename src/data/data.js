@@ -317,7 +317,7 @@ const data = [
   {
     id: 46,
     name: "Fam. Valadez Noriega",
-    adults: 7,
+    adults: 9,
     kids: 0,
     url: "fam-valadez-noriega",
   },
